@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1.title {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 4px;
+}
+
+img#add {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    height:40px;
+    width:40px;
+    cursor:pointer;
+}
+
+img#add:hover {
+
+transform: scale(1.1);
+transition: 200ms ease;
+}
+
+img#add:active {
+    transform: scale(0.9);
+}
+
+div#newtaskbox {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:fit-content;
+    width: fit-content;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    gap:20px !important;
+    background-color: black;
+  
+}
+
+p {
+    margin: auto;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+input#newtaskinput {
+    height:40px;
+    width:100%;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+input#submit {
+    width:30%;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+input#submit:focus {
+    outline: none;
+}
+
+input#submit:hover {
+    background-color: rgb(16, 172, 16);
+}
+
+input#submit:active {
+    transform: scale(0.9);
+}
+
+.newtaskdiv {
+    margin: auto;
+    margin-top:5px;
+    height:40px;
+    width:800px;
+    padding: 5px;
+    box-shadow:0 0 10px black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.newtaskp {
+    margin: auto;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: black !important;
+}
+
+.deleteimage {
+    position: absolute;
+    top:50%;
+    right:5px;
+    transform: translateY(-50%);
+    height:30px;
+    width:30px;
+    cursor: pointer;
+}
+
+
