@@ -106,13 +106,13 @@ input#submit:active {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color:black;
+    background-color:lightgrey;
 
 }
 
 .newtaskdiv:hover {
     cursor:pointer;
-    background-color:purple;
+    background-color:white;
     transition:200ms ease;
 }
 
@@ -120,7 +120,7 @@ input#submit:active {
     margin: auto;
     font-size: 13px;
     letter-spacing: 3px;
-    color: white;
+    color: black;
 }
 
 .deleteimage {
