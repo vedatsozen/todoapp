@@ -108,6 +108,7 @@ input#submit:active {
 }
 
 .newtaskdiv:hover {
+    cursor:pointer;
     background-color:whitesmoke;
 }
 
