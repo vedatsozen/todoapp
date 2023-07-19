@@ -104,14 +104,13 @@ input#submit:active {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color:white;
+    background-color:lightgrey;
 
 }
 
 .newtaskdiv:hover {
     cursor:pointer;
-    background-color:maroon;
-    color:white !important;
+    background-color:white;
     transition:200ms ease;
 }
 
