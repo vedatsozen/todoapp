@@ -68,7 +68,7 @@ $(document).ready(function() {
       .addClass("deleteimage");
 
     newTaskDiv.append(newTaskP, deleteImage);
-    $("body").append(newTaskDiv);
+    $("#container").append(newTaskDiv);
   }
 
   function updateTasksInLocalStorage(tasks) {
