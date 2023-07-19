@@ -110,7 +110,9 @@ input#submit:active {
 
 .newtaskdiv:hover {
     cursor:pointer;
-    background-color:whitesmoke;
+    background-color:maroon;
+    color:white;
+    transition:200ms ease;
 }
 
 .newtaskp {
