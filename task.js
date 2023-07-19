@@ -61,7 +61,7 @@ $(document).ready(function() {
   }
 
   function createTaskElement(task) {
-    let newTaskDiv = $("<div>").addClass("newtaskdiv");
+    let newTaskDiv = $("<div>").addClass("newtaskdiv ui-state-default");
     let newTaskP = $("<p>").addClass("newtaskp").text(task.title);
     let deleteImage = $("<img>")
       .attr("src", "images/remove.png")
