@@ -104,6 +104,7 @@ input#submit:active {
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color:white;
 
 }
 
