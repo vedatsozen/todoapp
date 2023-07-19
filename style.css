@@ -19,7 +19,7 @@ h1.title {
     padding:5px;
     margin:auto;
     height:fit-content;
-    width:80vw;
+    width:fit-content;
 
 img#add {
     position: absolute;
@@ -103,7 +103,7 @@ input#submit:active {
     margin: auto;
     margin-top:5px;
     height:40px;
-    width:100%;
+    width:800px;
     padding: 5px;
     box-shadow:0 0 10px black;
     border-radius: 4px;
