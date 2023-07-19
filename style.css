@@ -107,6 +107,10 @@ input#submit:active {
 
 }
 
+.newtaskdiv:hover {
+    background-color:whitesmoke;
+}
+
 .newtaskp {
     margin: auto;
     font-size: 13px;
