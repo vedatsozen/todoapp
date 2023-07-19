@@ -77,6 +77,6 @@ $(document).ready(function() {
 });
 
  $( function() {
-    $(body).sortable();
+    $("body").sortable();
   } );
 
