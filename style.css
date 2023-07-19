@@ -50,6 +50,7 @@ div#newtaskbox {
     align-items: center;
     gap:20px !important;
     background-color: black;
+    z-index:100;
   
 }
 
